@@ -21,5 +21,6 @@ def remove_strawberry(contacts)
         flavor.delete_if { flavor == "strawberry" }
       end
     end
+  end
         
 end
