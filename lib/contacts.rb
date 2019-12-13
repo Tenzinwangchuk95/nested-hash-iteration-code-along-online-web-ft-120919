@@ -16,5 +16,6 @@ require 'pry'
   
 def remove_strawberry(contacts)
   contacts["Freddy Mercury"].each |key, value|
-    if key == favorite_ice_cream_flavors
+    if key == :favorite_ice_cream_flavors
+      
 end
